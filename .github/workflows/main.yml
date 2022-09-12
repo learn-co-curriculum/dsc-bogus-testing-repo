@@ -27,7 +27,7 @@ jobs:
         run: gem install github-to-canvas
       
       - name: Branch splitter sync
-        run: python https://raw.githubusercontent/learn-co-curriculum/dsc-curriculum-guidelines/master/master-solution-branch-splitter/index.py -m 'syncing changes across branches'
+        run: python https://github.com/learn-co-curriculum/dsc-curriculum-guidelines/blob/b225dc4b71f464b2e19dd5e875c95ea32259e5e5/master-solution-branch-splitter/index.py -m 'syncing changes across branches'
 
       # Secret stored in learn-co-curriculum Settings/Secrets
       - name: Sync from .canvas file
