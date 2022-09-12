@@ -27,7 +27,7 @@ jobs:
         run: gem install github-to-canvas          
       
       - name: Branch splitter sync
-        run: python splitter.py -m 'syncing changes across branches'
+        run: python .github/workflows/splitter.py -m 'syncing changes across branches'
 
       # Secret stored in learn-co-curriculum Settings/Secrets
       - name: Sync from .canvas file
