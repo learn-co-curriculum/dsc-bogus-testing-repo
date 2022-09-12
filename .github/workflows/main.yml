@@ -2,8 +2,10 @@ name: Sync with Canvas
 
 on:
   push:
-    branches: ["curriculum"]
-    paths: ["index.ipynb"]
+    branches:
+      - curriculum
+    paths:
+      - 'index.ipynb'
 
 jobs:
   sync:
