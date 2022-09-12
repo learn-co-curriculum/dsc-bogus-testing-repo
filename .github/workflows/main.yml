@@ -27,7 +27,7 @@ jobs:
         run: gem install github-to-canvas 
         
       - name: Install git
-        run: pip install git
+        run: pip install gitpython
       
       - name: Branch splitter sync
         run: python .github/workflows/splitter.py -m 'syncing changes across branches'
