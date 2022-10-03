@@ -32,7 +32,7 @@ jobs:
           ref: 'curriculum'
       
       - name: Branch splitter sync
-        run: python /.github/workflows/splitter.py -m 'syncing changes across branches'
+        run: python /workflows/splitter.py -m 'syncing changes across branches'
 
       # Secret stored in learn-co-curriculum Settings/Secrets
       - name: Sync from .canvas file
