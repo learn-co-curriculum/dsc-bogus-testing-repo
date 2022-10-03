@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -28,6 +26,10 @@ jobs:
         
       - name: Install git
         run: pip install gitpython
+      - uses: actions/checkout@v2
+        with:
+          repository: '${{github.repository }}'
+          ref: 'curriculum'
       
       - name: Branch splitter sync
         run: python .github/workflows/splitter.py -m 'syncing changes across branches'
