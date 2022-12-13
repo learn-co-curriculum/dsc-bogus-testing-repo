@@ -26,9 +26,6 @@ jobs:
 
       - name: Install github-to-canvas
         run: gem install github-to-canvas 
-        
-      - name: Install git
-        run: pip install gitpython
           
       - name: Test path
         run: pwd
@@ -42,9 +39,3 @@ jobs:
         env:
           CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
           CANVAS_API_PATH: ${{ secrets.CANVAS_API_PATH }}
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
