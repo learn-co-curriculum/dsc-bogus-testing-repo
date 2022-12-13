@@ -16,46 +16,13 @@ You will be able to:
 # Testing Github Actions
 This cell is to track changes automatically synced with github actions
 
-I have moved the action to the curriculum branch and updated the path to the splitter script. 
+After many tests, I have the action working beautifully!
 
-Updated the path to the splitter file
-Updated path again
+Testing changes
 
-trying another path
-Trying another location for the script
-changed the path to the script
+More changes
 
-Trying the original location for the script.
-
-changed path
-
-added branch to path
-
-added checkout action
-
-yml edit
-
-added git installation
-
-added check for git version
-
-edited the splitter file
-
-added gitpython install
-
-had to install jupyter notebook
-
-had to checkout all three branches?
-
-checkout the last branch last
-
-edited the splitter script
-
-added try excpt in checkout
-
-added two checkout lines
-
-isolated just branch splitter
+splitter moved.
 
 ## Instructions: 
 ### Writing our first functions
