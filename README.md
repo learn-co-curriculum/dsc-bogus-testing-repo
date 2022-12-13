@@ -49,6 +49,8 @@ had to checkout all three branches?
 
 checkout the last branch last
 
+edited the splitter script
+
 ## Instructions: 
 ### Writing our first functions
 
