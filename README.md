@@ -13,6 +13,42 @@ You will be able to:
 
 * Declare and use a basic function
 
+# Testing Github Actions
+This cell is to track changes automatically synced with github actions
+
+I have moved the action to the curriculum branch and updated the path to the splitter script. 
+
+Updated the path to the splitter file
+Updated path again
+
+trying another path
+Trying another location for the script
+changed the path to the script
+
+Trying the original location for the script.
+
+changed path
+
+added branch to path
+
+added checkout action
+
+yml edit
+
+added git installation
+
+added check for git version
+
+edited the splitter file
+
+added gitpython install
+
+had to install jupyter notebook
+
+had to checkout all three branches?
+
+checkout the last branch last
+
 ## Instructions: 
 ### Writing our first functions
 
