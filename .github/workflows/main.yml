@@ -29,8 +29,6 @@ jobs:
         
       - name: Checkout
         uses: actions/checkout@v3
-          with:
-          path: curriculum
           
       - name: Test path
         run: pwd
