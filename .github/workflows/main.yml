@@ -24,6 +24,9 @@ jobs:
           python-version: 3.8.5
           check-latest: true
           
+      - name: Install GitPython
+        run: pip install GitPython
+          
       - name: Check git version
         run: git --version
 
