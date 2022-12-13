@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: 3.8.5
           check-latest: true
+          
+      - name: Install Git
+        run: pip install python-git
 
       - name: Install github-to-canvas
         run: gem install github-to-canvas 
