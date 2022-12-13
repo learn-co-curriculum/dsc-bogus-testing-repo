@@ -51,6 +51,8 @@ checkout the last branch last
 
 edited the splitter script
 
+added try excpt in checkout
+
 ## Instructions: 
 ### Writing our first functions
 
