@@ -55,6 +55,8 @@ added try excpt in checkout
 
 added two checkout lines
 
+isolated just branch splitter
+
 ## Instructions: 
 ### Writing our first functions
 
