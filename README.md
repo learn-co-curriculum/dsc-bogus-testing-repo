@@ -53,6 +53,8 @@ edited the splitter script
 
 added try excpt in checkout
 
+added two checkout lines
+
 ## Instructions: 
 ### Writing our first functions
 

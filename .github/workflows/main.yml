@@ -55,10 +55,11 @@ jobs:
       - name: Branch splitter sync
         run: python splitter.py  -m 'syncing changes across branches'
         
-      - name: Switch to Default Branck
-        run: |
-          try: git checkout master
-          except: git checkout main
+      - name: Switch to Master
+        run: git checkout master
+        
+      - name: Swithch to main
+        run: git checkout main
 
       # Secret stored in learn-co-curriculum Settings/Secrets
       - name: Sync from .canvas file
