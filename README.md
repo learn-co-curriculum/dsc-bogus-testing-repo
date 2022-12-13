@@ -45,6 +45,10 @@ added gitpython install
 
 had to install jupyter notebook
 
+had to checkout all three branches?
+
+checkout the last branch last
+
 ## Instructions: 
 ### Writing our first functions
 
