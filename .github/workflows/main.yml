@@ -26,6 +26,9 @@ jobs:
           
       - name: Install GitPython
         run: pip install GitPython
+        
+      - name: Install Jupyter Notebook
+        run: pip install notebook
           
       - name: Check git version
         run: git --version
