@@ -1,7 +1,7 @@
 import json
 import os
 import subprocess
-from GitPython import Repo, Git, GitCommandError
+from git import Repo, Git, GitCommandError
 import sys
 
 # CONSTANTS
