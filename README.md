@@ -3,6 +3,8 @@
 > # Testing Testing
 > This cell is put here to track and test tooling changes.
 
+This update to this cell is for testing if the remote action works when pushed from your local machine.
+
 ## Introduction
 
 As you know, we can use functions to name snippets of our code, thus making our code more expressive. We can also use functions to allow us to reuse our code. In this lab we will practice using functions for both of those purposes.
