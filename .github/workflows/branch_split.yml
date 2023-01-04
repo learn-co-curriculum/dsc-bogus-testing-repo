@@ -1,0 +1,12 @@
+name: Curriculum Solution Branch Splitter
+
+on:
+  push:
+    branches: curriculum
+    paths: index.ipynb
+
+jobs:
+  Test_remote_action:
+    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/branch_split.yml@0ec39d14a5ff1ced6a788593748735d4e433072f
+    secrets: inherit
+   
