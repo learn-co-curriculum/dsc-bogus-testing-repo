@@ -7,6 +7,6 @@ on:
 
 jobs:
   Test_remote_action:
-    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/test.yml@a55a8f17c497a0a53505aa862784e0d8482fd414
+    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/branch_splitter.yml@b9a77428ddc1e97d378b3138be19f9e4cec0cdc1
     secrets: inherit
    
