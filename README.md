@@ -1,9 +1,15 @@
 # Creating Functions - Lab
 
-> # Testing Testing
+> # Remote Action Testing again!! (wrong script name before)
+
+## added updated version for the remote action
 > This cell is put here to track and test tooling changes.
 
+## added the "on: workflow_call arg
+
 This update to this cell is for testing if the remote action works when pushed from your local machine.
+
+## Testing remote action change of path
 
 ## Introduction
 
