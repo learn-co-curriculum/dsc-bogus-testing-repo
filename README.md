@@ -32,6 +32,15 @@ More changes
 
 splitter moved.
 
+
+```python
+# __SOLUTION__
+
+#Testing solution tagging function in remote actions
+
+# __SOLUTION__
+```
+
 ## Instructions: 
 ### Writing our first functions
 
