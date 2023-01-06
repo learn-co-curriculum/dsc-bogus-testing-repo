@@ -1,5 +1,9 @@
 # Creating Functions - Lab
 
+## Added action version
+
+Added extended version number for the action
+
 > # Remote Action Testing again!! (wrong script name before)
 
 ## added updated version for the remote action
