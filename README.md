@@ -1,4 +1,20 @@
-# Creating Functions - Labb
+# Creating Functions - Lab
+
+
+```python
+
+```
+
+## Tracking changes made by the branch splitter via github actions after
+* Pull Request Approval
+
+
+
+```python
+__SOLUTION__
+# The contents of this cell are to demonstrate the github actions functionality on the solution branch
+
+```
 
 ## Introduction
 
