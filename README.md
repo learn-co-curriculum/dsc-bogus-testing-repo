@@ -36,6 +36,8 @@ More changes
 
 splitter moved.
 
+I have added a markdown cell to test the SOP
+
 
 ```python
 # __SOLUTION__
