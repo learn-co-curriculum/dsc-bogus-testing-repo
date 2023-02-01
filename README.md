@@ -1,19 +1,4 @@
-# Creating Functions - Lab
-
-## Added action version
-
-Added extended version number for the action
-
-> # Remote Action Testing again!! (wrong script name before)
-
-## added updated version for the remote action
-> This cell is put here to track and test tooling changes.
-
-## added the "on: workflow_call arg
-
-This update to this cell is for testing if the remote action works when pushed from your local machine.
-
-## Testing remote action change of path
+# Creating Functions - Labb
 
 ## Introduction
 
@@ -24,27 +9,6 @@ As you know, we can use functions to name snippets of our code, thus making our 
 You will be able to:
 
 * Declare and use a basic function
-
-# Testing Github Actions
-This cell is to track changes automatically synced with github actions
-
-After many tests, I have the action working beautifully!
-
-Testing changes
-
-More changes
-
-splitter moved.
-
-I have added a markdown cell to test the SOP
-
-
-```python
-
-#Testing solution tagging function in remote actions
-
-
-```
 
 ## Instructions: 
 ### Writing our first functions
