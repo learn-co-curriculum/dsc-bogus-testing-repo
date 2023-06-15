@@ -8,6 +8,12 @@
 ```python
 # The contents of this cell are to demonstrate the github actions functionality on the solution branch
 
+this_is_a_list=[1,2,3,4,'fun']
+a_dict={'yes':'llama','double quotes or single?':'single'}
+
+def afunction():
+    return 100**2
+
 ```
 
 ## Introduction
