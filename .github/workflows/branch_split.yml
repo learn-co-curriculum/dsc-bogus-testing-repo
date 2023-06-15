@@ -1,12 +1,51 @@
 name: Curriculum Solution Branch Splitter
 
 on:
-  push:
-    branches: curriculum
-    paths: index.ipynb
+  workflow_call:
 
 jobs:
-  Test_remote_action:
-    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/branch_split.yml@v1.0.0
-    secrets: inherit
-   
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+          check-latest: true
+          
+      - name: Install GitPython
+        run: pip install GitPython
+        
+      - name: Install Jupyter Notebook
+        run: pip install notebook
+          
+      - name: Check git version
+        run: git --version
+        
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          submodules: true
+
+      - uses: actions/checkout@v3
+        with:
+          ref: solution
+          submodules: true
+        continue-on-error: true
+        
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: curriculum
+          submodules: true
+          
+      - name: Install and run black formatter
+        run : pip install "black[jupyter]"
+              black .
+          
+      - name: Branch splitter sync
+        run: python splitter.py  -m 'syncing changes across branches'
+        
