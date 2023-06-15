@@ -7,5 +7,5 @@ on:
 
 jobs:
   Test_remote_action:
-    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/black_format.yml
+    uses: learn-co-curriculum/dsc-github-actions-files/.github/workflows/black_format.yml@v1.0.0
     secrets: inherit
