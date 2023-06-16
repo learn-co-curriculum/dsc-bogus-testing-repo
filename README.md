@@ -4,7 +4,7 @@
 ```python
 # this is a change
 a = 1 + 10 + 3 + 4 + 5 + 6 + 7
-b = 0 + 1 + 2 + 3 + 4 + 5 + 6
+b = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7
 ```
 
 ## Tracking changes made by the branch splitter via github actions after
@@ -13,7 +13,19 @@ b = 0 + 1 + 2 + 3 + 4 + 5 + 6
 
 
 ```python
-__SOLUTION__
+# The contents of this cell are to demonstrate the github actions functionality on the solution branch
+
+this_is_a_list = None
+a_dict = None
+
+
+def afunction():
+    pass
+```
+
+
+```python
+# __SOLUTION__
 # The contents of this cell are to demonstrate the github actions functionality on the solution branch
 
 this_is_a_list = [1, 2, 3, 4, "fun"]
