@@ -8,12 +8,12 @@
 ```python
 # The contents of this cell are to demonstrate the github actions functionality on the solution branch
 
-this_is_a_list=[1,2,3,4,'fun']
-a_dict={'yes':'llama','double quotes or single?':'single'}
+this_is_a_list = [1, 2, 3, 4, "fun"]
+a_dict = {"yes": "llama", "double quotes or single?": "single"}
+
 
 def afunction():
     return 100**2
-
 ```
 
 ## Introduction
@@ -33,7 +33,9 @@ Imagine we are creating a list of travel destinations -- which can really turn o
 
 
 ```python
-travel_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+travel_destinations = ["argentina", "mexico", "italy", "finland", "canada", "croatia"]
+
+
 # define function here
 def number_of_destinations():
     return len(travel_destinations)
@@ -66,8 +68,8 @@ Next, run your new function
 
 
 ```python
-list_of_destinations = ['argentina', 'canada', 'croatia']
-next_up() 
+list_of_destinations = ["argentina", "canada", "croatia"]
+next_up()
 ```
 
 
@@ -90,7 +92,7 @@ Next, run your new function
 
 
 ```python
-favorite_destination() 
+favorite_destination()
 ```
 
 
@@ -114,11 +116,11 @@ Next, run your new function
 
 
 ```python
-favorite_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+favorite_destinations = ["argentina", "mexico", "italy", "finland", "canada", "croatia"]
 
 add_favorite_destination()
 
-favorite_destinations[-1] # 'madagascar'
+favorite_destinations[-1]  # 'madagascar'
 ```
 
 
@@ -132,7 +134,16 @@ Now let's write another function called `capitalize_countries()` which iterates 
 
 
 ```python
-capitalized_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+capitalized_destinations = [
+    "argentina",
+    "mexico",
+    "italy",
+    "finland",
+    "canada",
+    "croatia",
+]
+
+
 # define function here
 def capitalize_countries():
     new_list = []
@@ -145,7 +156,7 @@ Next, run your new function
 
 
 ```python
-capitalize_countries() 
+capitalize_countries()
 ```
 
 
