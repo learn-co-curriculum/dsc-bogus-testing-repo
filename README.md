@@ -4,7 +4,7 @@
 ```python
 # this is a change
 a = 1 + 10 + 3 + 4 + 5 + 6 + 7
-b = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
+b = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
 ```
 
 ## Tracking changes made by the branch splitter via github actions after
