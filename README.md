@@ -3,7 +3,8 @@
 
 ```python
 # this is a change
-a = 1
+a = 1 + 10 + 3 + 4 + 5 + 6 + 7
+b = 0 + 1 + 2 + 3 + 4 + 5 + 6
 ```
 
 ## Tracking changes made by the branch splitter via github actions after
@@ -15,12 +16,12 @@ a = 1
 __SOLUTION__
 # The contents of this cell are to demonstrate the github actions functionality on the solution branch
 
-this_is_a_list=[1,2,3,4,'fun']
-a_dict={'yes':'llama','double quotes or single?':'single'}
+this_is_a_list = [1, 2, 3, 4, "fun"]
+a_dict = {"yes": "llama", "double quotes or single?": "single"}
+
 
 def afunction():
     return 100**2
-
 ```
 
 ## Introduction
@@ -40,14 +41,16 @@ Imagine we are creating a list of travel destinations -- which can really turn o
 
 
 ```python
-travel_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+travel_destinations = ["argentina", "mexico", "italy", "finland", "canada", "croatia"]
 # define function here
 ```
 
 
 ```python
-# __SOLUTION__ 
-travel_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+# __SOLUTION__
+travel_destinations = ["argentina", "mexico", "italy", "finland", "canada", "croatia"]
+
+
 # define function here
 def number_of_destinations():
     return len(travel_destinations)
@@ -62,7 +65,7 @@ def number_of_destinations():
 
 
 ```python
-# __SOLUTION__ 
+# __SOLUTION__
 number_of_destinations()
 ```
 
@@ -82,7 +85,7 @@ Now write another function called `next_up()` that returns our first destination
 
 
 ```python
-# __SOLUTION__ 
+# __SOLUTION__
 # define function hed
 def next_up():
     return list_of_destinations[0]
@@ -92,16 +95,16 @@ Next, run your new function
 
 
 ```python
-list_of_destinations = ['argentina', 'canada', 'croatia']
-# Your code here 
+list_of_destinations = ["argentina", "canada", "croatia"]
+# Your code here
 # Expected output:'argentina'
 ```
 
 
 ```python
-# __SOLUTION__ 
-list_of_destinations = ['argentina', 'canada', 'croatia']
-next_up() 
+# __SOLUTION__
+list_of_destinations = ["argentina", "canada", "croatia"]
+next_up()
 ```
 
 
@@ -120,7 +123,7 @@ Ok, now write a function called `favorite_destination()` that returns the string
 
 
 ```python
-# __SOLUTION__ 
+# __SOLUTION__
 # define function here
 def favorite_destination():
     return "madagascar"
@@ -130,14 +133,14 @@ Next, run your new function
 
 
 ```python
-# Your code here 
+# Your code here
 # Expected output:'madagascar'
 ```
 
 
 ```python
-# __SOLUTION__ 
-favorite_destination() 
+# __SOLUTION__
+favorite_destination()
 ```
 
 
@@ -156,7 +159,7 @@ Again, let's declare a list called `favorite_destinations`. Write a new function
 
 
 ```python
-# __SOLUTION__ 
+# __SOLUTION__
 # define function here
 def add_favorite_destination():
     favorite_destinations.append(favorite_destination())
@@ -167,21 +170,21 @@ Next, run your new function
 
 
 ```python
-favorite_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+favorite_destinations = ["argentina", "mexico", "italy", "finland", "canada", "croatia"]
 
-# Your code here 
+# Your code here
 
-favorite_destinations[-1] 
+favorite_destinations[-1]
 ```
 
 
 ```python
-# __SOLUTION__ 
-favorite_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+# __SOLUTION__
+favorite_destinations = ["argentina", "mexico", "italy", "finland", "canada", "croatia"]
 
 add_favorite_destination()
 
-favorite_destinations[-1] # 'madagascar'
+favorite_destinations[-1]  # 'madagascar'
 ```
 
 
@@ -195,14 +198,30 @@ Now let's write another function called `capitalize_countries()` which iterates 
 
 
 ```python
-capitalized_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+capitalized_destinations = [
+    "argentina",
+    "mexico",
+    "italy",
+    "finland",
+    "canada",
+    "croatia",
+]
 # define function here
 ```
 
 
 ```python
-# __SOLUTION__ 
-capitalized_destinations = ['argentina', 'mexico', 'italy', 'finland', 'canada', 'croatia']
+# __SOLUTION__
+capitalized_destinations = [
+    "argentina",
+    "mexico",
+    "italy",
+    "finland",
+    "canada",
+    "croatia",
+]
+
+
 # define function here
 def capitalize_countries():
     new_list = []
@@ -220,8 +239,8 @@ Next, run your new function
 
 
 ```python
-# __SOLUTION__ 
-capitalize_countries() 
+# __SOLUTION__
+capitalize_countries()
 ```
 
 
